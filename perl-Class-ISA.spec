@@ -1,6 +1,6 @@
 Name:           perl-Class-ISA
 Version:        0.36
-Release:        1009.1%{?dist}
+Release:        1010%{?dist}
 Summary:        Report the search path for a class's ISA tree
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -37,6 +37,9 @@ make test
 %{perl_vendorlib}/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.36-1010
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 0.36-1009.1
 - Rebuild for perl 5.16
 
